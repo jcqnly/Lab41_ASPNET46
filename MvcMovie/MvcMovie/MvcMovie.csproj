@@ -223,6 +223,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808030150242_InitialCreate.cs" />
+    <Compile Include="Migrations\201808030150242_InitialCreate.Designer.cs">
+      <DependentUpon>201808030150242_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808030349182_Initial.cs" />
+    <Compile Include="Migrations\201808030349182_Initial.Designer.cs">
+      <DependentUpon>201808030349182_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808030401248_Second.cs" />
+    <Compile Include="Migrations\201808030401248_Second.Designer.cs">
+      <DependentUpon>201808030401248_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808030405014_dataAnnotations.cs" />
+    <Compile Include="Migrations\201808030405014_dataAnnotations.Designer.cs">
+      <DependentUpon>201808030405014_dataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -301,6 +318,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808030150242_InitialCreate.resx">
+      <DependentUpon>201808030150242_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808030349182_Initial.resx">
+      <DependentUpon>201808030349182_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808030401248_Second.resx">
+      <DependentUpon>201808030401248_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808030405014_dataAnnotations.resx">
+      <DependentUpon>201808030405014_dataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
