@@ -1,5 +1,5 @@
 # Lab41_ASPNET46
-Re-create an ASP.NET 4.6 code base
+Re-create an ASP.NET 4.6 code base with full CRUD
 
 ---
 ## Objective
@@ -37,16 +37,20 @@ dotnet run
 ---
 
 ## Screenshots
-Initial index page:
+Initial movie list page:
 
-![Initial Index Page]()
+![Initial Index Page](/assets/landingPage.png)
 
-New landing page:
+Search for a movie:
 
-![New Landing Page]()
+![Movie Search](/assets/search.png)
 
-New movie list page design:
+Delete "When Harry Met Sally":
 
-![Initial Index Page]()
+![Delete Movie](/assets/delete.png)
+
+Add "Infinity Wars":
+
+![Add a movie](/assets/add.png)
 
 
